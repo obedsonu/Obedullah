@@ -1,0 +1,21 @@
+// program to program to convert temperatures to and from Celsius to Fahrenheit.
+function Fahrenheit(temp) {
+
+    //TO COVER FROM C TO F formula F=C*9/5+32
+        let Fahrenheit =(temp)*(9/5)+32 
+        console.log (temp, `c is `,Fahrenheit ,`F`);
+        }
+function Celsius (temp) {
+
+    //TO COVER FROM F TO c formula C=(F-32)*5/9
+        let Celsius =(temp-32)*(5/9) 
+        console.log (temp, `F is `,Celsius ,`C`);
+        }
+// take temperature in Celsius
+
+ 
+
+var temp = prompt('Enter a temperature in Celsius :')
+Fahrenheit(temp);
+var temp = prompt('Enter a temperature in Fahrenheit :')
+Celsius(temp);
